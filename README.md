@@ -23,4 +23,3 @@ A graph is a list of edges. Each edge contains two adjacent vertices and the wei
 These data structures are implemented using the concept of ADT. This mechanism allows each data structures to hold any sort of data types both Haskell prelude data types as well as user defined algebraic data types. However, once these data structures were initialized with a particular data type, then it can only hold that particular data type.
 
 Monads and IO in Haskell takes out the pureness in functional programming paradigm, because of program states are used during IO processing. However, these two mechanisms is used to create a menu system as a facade to all functionalities in this system. Nevertheless, all those functionalities are decoupled completely from monads and IO.
-
